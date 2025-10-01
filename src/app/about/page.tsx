@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { Shield, Star, Users, CheckCircle, Award, Target, Heart } from 'lucide-react'
+import { Shield, Star, Users, CheckCircle, Target, Heart } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About Us - Trust But Verify Solutions',
@@ -61,7 +61,7 @@ export default function AboutPage() {
               Our Mission
             </div>
             <h2 className="text-5xl font-heading font-black text-gray-900 mb-6">
-              Securing America's Critical Infrastructure
+              Securing America&apos;s Critical Infrastructure
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-semibold">
               Trust But Verify Solutions is dedicated to providing world-class secure facility 
@@ -83,7 +83,7 @@ export default function AboutPage() {
                       Security Excellence
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-base">
-                      Our mission is to protect our nation's most sensitive information and operations 
+                      Our mission is to protect our nation&apos;s most sensitive information and operations 
                       through innovative design, meticulous construction, and unwavering commitment 
                       to security excellence.
                     </p>
@@ -210,7 +210,7 @@ export default function AboutPage() {
               The Principles That Guide Us
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed font-semibold">
-              The principles that guide everything we do in service to our nation's security.
+              The principles that guide everything we do in service to our nation&apos;s security.
             </p>
           </div>
           

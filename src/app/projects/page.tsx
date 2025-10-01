@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import ProjectsClient from '@/components/ProjectsClient'
-import { Shield, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Projects - Trust But Verify Solutions',

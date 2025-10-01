@@ -230,7 +230,7 @@ export default function ContactForm() {
       {submitStatus === 'success' && (
         <div className="rounded-md bg-green-50 p-4">
           <div className="text-sm text-green-800">
-            Thank you for your message! We'll get back to you soon. Redirecting to thank you page...
+            Thank you for your message! We&apos;ll get back to you soon. Redirecting to thank you page...
           </div>
         </div>
       )}

@@ -18,7 +18,7 @@ export default function ThankYouPage() {
               Thank You!
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Your message has been sent successfully. We'll review your inquiry and get back to you 
+              Your message has been sent successfully. We&apos;ll review your inquiry and get back to you 
               within 24 hours. We appreciate your interest in Trust But Verify Solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

@@ -98,7 +98,7 @@ export default function SCIFSecurePage() {
           </div>
           
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {credibilityStats.map((stat, index) => {
+            {credibilityStats.map((stat) => {
               const IconComponent = stat.icon
               return (
                 <div key={stat.label} className="group text-center">

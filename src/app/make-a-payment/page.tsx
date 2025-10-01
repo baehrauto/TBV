@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { CreditCard, ShieldCheck, ArrowRight, Shield, Star } from 'lucide-react'
+import { CreditCard, ShieldCheck, ArrowRight, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Make a Payment - Trust But Verify Solutions',
@@ -184,7 +184,7 @@ export default function MakePaymentPage() {
               Need Help?
             </div>
             <h2 className="text-5xl font-heading font-black text-white mb-6">
-              We're Here to Help
+              We&apos;re Here to Help
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed font-semibold">
               If you have questions about your invoice or need assistance with payment, 

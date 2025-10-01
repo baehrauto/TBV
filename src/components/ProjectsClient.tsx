@@ -1,9 +1,8 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { allProjects } from '@/data/projects'
-import ProjectCard from '@/components/ProjectCard'
-import ProjectFilters from '@/components/ProjectFilters'
 
 export default function ProjectsClient() {
   const [filteredProjects, setFilteredProjects] = useState(allProjects)
@@ -62,12 +61,14 @@ export default function ProjectsClient() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
             {filteredProjects.map((project) => (
               <div key={project.slug} className="group bg-white rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500 hover:-translate-y-3">
-                <div className="relative overflow-hidden">
-                  <img
-                    src={project.coverImage}
-                    alt={project.title}
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
+                  <div className="relative overflow-hidden">
+                    <Image
+                      src={project.coverImage}
+                      alt={project.title}
+                      width={400}
+                      height={256}
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
                 <div className="p-8">

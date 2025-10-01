@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
-import { MapPin, Phone, Mail, Shield, Star } from 'lucide-react'
+import { MapPin, Phone, Mail } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Trust But Verify Solutions',
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   Get in Touch
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed font-semibold">
-                  We're here to help with your secure facility construction and compliance needs. 
+                  We&apos;re here to help with your secure facility construction and compliance needs. 
                   Contact us using the information below or fill out the form.
                 </p>
               </div>
@@ -138,7 +138,7 @@ export default function ContactPage() {
                   Send us a Message
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed font-semibold">
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </p>
               </div>
               
