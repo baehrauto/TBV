@@ -274,7 +274,7 @@ export default function HomePage() {
                       <ArrowRight className="ml-2 h-4 w-4 group-hover/link:translate-x-1 transition-transform duration-300" />
                     </Link>
                     <div className="text-sm text-gray-500 font-medium">
-                      {project.squareFootage > 0 && `${project.squareFootage.toLocaleString()} sq ft`}
+                      {project.squareFootage && project.squareFootage > 0 && `${project.squareFootage.toLocaleString()} sq ft`}
                     </div>
                   </div>
                 </div>
